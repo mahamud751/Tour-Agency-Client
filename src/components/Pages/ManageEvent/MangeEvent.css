@@ -1,0 +1,9 @@
+.regUser{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.regUser p,img,button{
+    width: 25%;
+}
