@@ -4,7 +4,7 @@ import { Row } from 'react-bootstrap';
 const BookingEvent = () => {
     const [events, setEvents] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/bookingPackage')
+        fetch('https://floating-wave-05722.herokuapp.com/bookingPackage')
             .then(res => res.json())
             .then(data => setEvents(data))
     }, [])
