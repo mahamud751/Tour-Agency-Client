@@ -12,20 +12,23 @@ const ManageEvent = () => {
             .then(data => setServices(data))
     }, [])
     const handleDlt = id => {
-        console.log('yes')
-        const url = `https://floating-wave-05722.herokuapp.com/packages/${id}`
-        console.log(url)
-        fetch(url, {
-            method: 'DELETE'
-        })
-            .then(res => res.json())
-            .then(data => {
-                if (data.deletedCount) {
-                    alert("success")
-                    const remaining = services.filter(service => service._id !== id)
-                    setServices(remaining)
-                }
+        const confirmation = window.confirm('Are you Sure?')
+        if (confirmation) {
+            console.log('yes')
+            const url = `https://floating-wave-05722.herokuapp.com/packages/${id}`
+            console.log(url)
+            fetch(url, {
+                method: 'DELETE'
             })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.deletedCount) {
+                        alert("success")
+                        const remaining = services.filter(service => service._id !== id)
+                        setServices(remaining)
+                    }
+                })
+        }
     }
     return (
         <div>
@@ -49,7 +52,7 @@ const ManageEvent = () => {
                 }
 
             </div>
-            );
+
         </div>
     );
 };

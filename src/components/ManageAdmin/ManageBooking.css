@@ -1,0 +1,15 @@
+.regUsers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.regUsers p,button{
+    width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .regUsers p,img,button{
+       width: 10%;
+    }
+}

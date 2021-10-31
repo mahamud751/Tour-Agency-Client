@@ -3,8 +3,9 @@ import { useEffect, useState } from "react";
 import initialAuthentication from "../Firebase/Initialize-Authentication";
 
 initialAuthentication()
+
 const useFirebase = () => {
-    const [user, setUser] = useState()
+    const [user, setUser] = useState({})
 
     const googleProvider = new GoogleAuthProvider()
 
@@ -22,7 +23,7 @@ const useFirebase = () => {
                 setUser(user)
             }
         })
-    }, [])
+    }, [auth])
 
     const logOut = () => {
         signOut(auth)

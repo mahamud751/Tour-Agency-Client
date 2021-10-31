@@ -15,8 +15,9 @@ const Banner = () => {
                     <Carousel.Caption style={{
                         bottom: "20.25rem"
                     }}>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Let's Make Your Best Trip Ever</h3>
+                        <p>Book your perfect trip with travel tips, destination information and inspiration from us.</p>
+                        <button className="BannerBtn">Discover Now</button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -29,8 +30,9 @@ const Banner = () => {
                     <Carousel.Caption style={{
                         bottom: "20.25rem"
                     }}>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Let's Make Your Best Trip Ever</h3>
+                        <p>Book your perfect trip with travel tips, destination information and inspiration from us.</p>
+                        <button className="BannerBtn">Discover Now</button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -43,8 +45,9 @@ const Banner = () => {
                     <Carousel.Caption style={{
                         bottom: "20.25rem"
                     }}>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Let's Make Your Best Trip Ever</h3>
+                        <p>Book your perfect trip with travel tips, destination information and inspiration from us.</p>
+                        <button className="BannerBtn">Discover Now</button>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

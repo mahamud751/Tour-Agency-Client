@@ -4,17 +4,7 @@
 .left{
     background-color: #FFFFFF;
 }
-/* .right{
-    background-color: #FFFFFF; 
-    width: 100%;
-} */
-/* .inp{
-    width: 250px;
-    border-radius: 10px;
-    border: 0;
-    line-height: 30px;
-    background-color: #a0a0c8;
-} */
+
 .inp{
     width: 250px;
     color: rgba(255,255,255,0.9);
@@ -25,14 +15,3 @@
             animation: anime 16s linear infinite;
      
 }
-@keyframes anime {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
