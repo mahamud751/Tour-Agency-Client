@@ -1,6 +1,6 @@
 # Getting Started with SR Online Travel Agency
 
-This project was bootstrapped with(https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-mahamud751).
+This project was bootstrapped with(https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-mahamud751).
 
 ## Our Target---
 * We negotiate perks, pay and everything in between.
