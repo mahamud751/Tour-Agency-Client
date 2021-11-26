@@ -8,7 +8,7 @@ import Packages from '../Packages/Packages';
 const Event = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('https://floating-wave-05722.herokuapp.com/packages')
+        fetch('https://secret-cliffs-24030.herokuapp.com/packages')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])

@@ -10,7 +10,7 @@ const Booking = () => {
     const onSubmit = data => {
         data.status = "pending"
 
-        axios.post('https://floating-wave-05722.herokuapp.com/bookingPackage', data)
+        axios.post('https://secret-cliffs-24030.herokuapp.com/bookingPackage', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('success')

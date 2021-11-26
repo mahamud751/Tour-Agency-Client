@@ -8,7 +8,7 @@ const MyEvent = () => {
     const [users, setUsers] = useState([])
     console.log(user)
     useEffect(() => {
-        fetch('https://floating-wave-05722.herokuapp.com/bookingPackage')
+        fetch('https://secret-cliffs-24030.herokuapp.com/bookingPackage')
             .then(res => res.json())
             .then(data => setUsers(data))
     }, [])

@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 const AddEvent = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
-        axios.post('https://floating-wave-05722.herokuapp.com/packages', data)
+        axios.post('https://secret-cliffs-24030.herokuapp.com/packages', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('success')

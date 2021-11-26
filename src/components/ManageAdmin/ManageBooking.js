@@ -4,14 +4,14 @@ import './ManageBooking.css'
 const ManageBooking = () => {
     const [events, setEvents] = useState([])
     useEffect(() => {
-        fetch('https://floating-wave-05722.herokuapp.com/bookingPackage')
+        fetch('https://secret-cliffs-24030.herokuapp.com/bookingPackage')
             .then(res => res.json())
             .then(data => setEvents(data))
     }, [])
     const handleDlt = id => {
         const confirmation = window.confirm('Are you Sure?')
         if (confirmation) {
-            const url = `https://floating-wave-05722.herokuapp.com/bookingPackage${id}`
+            const url = `https://secret-cliffs-24030.herokuapp.com/bookingPackage${id}`
             console.log(url)
             fetch(url, {
                 method: 'DELETE'

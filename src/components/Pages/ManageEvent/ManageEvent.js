@@ -7,7 +7,7 @@ import './MangeEvent.css'
 const ManageEvent = () => {
     const [products, setProducts] = useState([])
     useEffect(() => {
-        fetch('https://floating-wave-05722.herokuapp.com/packages')
+        fetch('https://secret-cliffs-24030.herokuapp.com/packages')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
@@ -15,7 +15,7 @@ const ManageEvent = () => {
         const confirmation = window.confirm('Are you Sure?')
         if (confirmation) {
             console.log('yes')
-            const url = `https://floating-wave-05722.herokuapp.com/packages/${id}`
+            const url = `https://secret-cliffs-24030.herokuapp.com/packages/${id}`
             console.log(url)
             fetch(url, {
                 method: 'DELETE'
