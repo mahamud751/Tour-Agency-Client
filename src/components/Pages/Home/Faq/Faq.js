@@ -4,7 +4,7 @@ const Faq = () => {
     return (
         <div>
             <div className="mt-5 p-5">
-                <h1 className="bg-danger text-white p-3"> Do You Have Questions About Our Travel Agency?
+                <h1 className="bg-danger text-white p-3"> Do You Have Questions About Us?
                 </h1>
                 <div className="row p-5">
                     <div className="col-lg-6 col-md-6 col-12">

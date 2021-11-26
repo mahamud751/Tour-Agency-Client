@@ -5,11 +5,11 @@ import './MangeEvent.css'
 
 
 const ManageEvent = () => {
-    const [services, setServices] = useState([])
+    const [products, setProducts] = useState([])
     useEffect(() => {
         fetch('https://floating-wave-05722.herokuapp.com/packages')
             .then(res => res.json())
-            .then(data => setServices(data))
+            .then(data => setProducts(data))
     }, [])
     const handleDlt = id => {
         const confirmation = window.confirm('Are you Sure?')
@@ -24,8 +24,8 @@ const ManageEvent = () => {
                 .then(data => {
                     if (data.deletedCount) {
                         alert("success")
-                        const remaining = services.filter(service => service._id !== id)
-                        setServices(remaining)
+                        const remaining = products.filter(service => service._id !== id)
+                        setProducts(remaining)
                     }
                 })
         }
@@ -41,7 +41,7 @@ const ManageEvent = () => {
             </div>
             <div>
                 {
-                    services.map(service =>
+                    products.map(service =>
                         <div className="regUser">
                             <p>{service.name}</p>
                             <img className="p-5 img-fluid" src={service.img} alt="" style={{

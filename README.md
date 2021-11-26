@@ -2,7 +2,7 @@
 
 This project was bootstrapped with(https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-mahamud751).
 
-## Our Target---
+## Our Targets---
 * We negotiate perks, pay and everything in between.
 
 * Providers arrive quickly and ready to work.
