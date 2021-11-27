@@ -1,6 +1,6 @@
 # Getting Started with SR Online Travel Agency
 
-This project was bootstrapped with(https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-mahamud751).
+This project was bootstrapped with(https://github.com/mahamud751/Tour-Agency-Server).
 
 ## Our Targets---
 
