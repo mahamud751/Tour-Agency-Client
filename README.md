@@ -3,11 +3,12 @@
 This project was bootstrapped with(https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-mahamud751).
 
 ## Our Targets---
-* We negotiate perks, pay and everything in between.
 
-* Providers arrive quickly and ready to work.
+* A full-stack travel-agency web app. 
 
-* Quality candidates who fit your facility.
+* The user can book event packages, give them a review.
+
+* Admin can change the add new event packages, delete service, edit service.
 
 * An online booking software for space-style resources such as meeting rooms.
 
